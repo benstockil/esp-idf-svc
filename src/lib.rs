@@ -56,7 +56,7 @@ pub mod http;
 pub mod httpd;
 #[cfg(feature = "alloc")]
 pub mod log;
-#[cfg(all(feature = "alloc", esp_idf_comp_mdns_enabled))]
+#[cfg(all(feature = "alloc"))]
 pub mod mdns;
 #[cfg(all(
     feature = "alloc",
